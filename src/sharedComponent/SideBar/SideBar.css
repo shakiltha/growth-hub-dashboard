@@ -1,0 +1,21 @@
+.sidebar-collapse {
+    left: -17.6rem;
+}
+
+@media screen and (min-width: 414px) {
+    .sidebar-collapse {
+        left: -19.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar-collapse {
+        left: -36rem;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .sidebar-collapse {
+        left: -38.5rem;
+    }
+}
