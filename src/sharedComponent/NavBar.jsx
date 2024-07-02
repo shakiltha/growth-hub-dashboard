@@ -3,9 +3,9 @@ import { IoSearchOutline } from "react-icons/io5";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-xl">
+    <div className="navbar bg-base-100 shadow-xl lg:sticky lg:top-0 z-30">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl ml-3 lg:ml-60">
+        <a className="btn btn-ghost text-xl ml-10 lg:ml-[20rem]">
           <IoSearchOutline />
         </a>
       </div>

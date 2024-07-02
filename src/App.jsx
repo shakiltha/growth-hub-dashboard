@@ -1,3 +1,4 @@
+import Dashboard from "./pages/Dashboard";
 import NavBar from "./sharedComponent/NavBar";
 import SideBar from "./sharedComponent/SideBar/SideBar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <NavBar />
       <SideBar />
+      <Dashboard />
     </>
   );
 }

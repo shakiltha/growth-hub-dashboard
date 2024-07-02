@@ -1,10 +1,36 @@
-.sidebar-collapse {
-    left: -17.6rem;
+@media screen and (min-width: 360px) {
+    .sidebar-collapse {
+        left: -16.9rem;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .sidebar-collapse {
+        left: -17.6rem;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .sidebar-collapse {
+        left: -18.3rem;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .sidebar-collapse {
+        left: -19.3rem;
+    }
 }
 
 @media screen and (min-width: 414px) {
     .sidebar-collapse {
         left: -19.5rem;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .sidebar-collapse {
+        left: -20.2rem;
     }
 }
 
@@ -16,6 +42,12 @@
 
 @media screen and (min-width: 820px) {
     .sidebar-collapse {
-        left: -38.5rem;
+        left: -37.7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sidebar-collapse {
+        left: -.1rem;
     }
 }
