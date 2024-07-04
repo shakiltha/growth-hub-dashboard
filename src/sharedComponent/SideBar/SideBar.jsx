@@ -1,13 +1,12 @@
-import { useState } from "react";
 import { BiBarChartAlt } from "react-icons/bi";
 import { FaBagShopping, FaLock } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosPersonAdd } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
-import { MdAccountCircle, MdCancel, MdPeopleAlt } from "react-icons/md";
+import { MdAccountCircle, MdPeopleAlt } from "react-icons/md";
 import { VscError } from "react-icons/vsc";
 import "./SideBar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const SideBar = () => {
   return (
@@ -35,46 +34,142 @@ const SideBar = () => {
               <h2 className="my-7 text-2xl lg:text-3xl font-bold pl-2 pb-8 border-b-2">
                 Growth-Hub
               </h2>
-              <Link to={"/"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              <NavLink
+                to={"/"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4">
                   <BiBarChartAlt /> <h3>Dashboard</h3>
                 </div>
-              </Link>
-              <Link to={"/customers"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/customers"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4">
                   <MdPeopleAlt /> <h3>Customers</h3>
                 </div>
-              </Link>
-              <Link to={"/products"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/products"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <FaBagShopping /> <h3>Products</h3>
                 </div>
-              </Link>
-              <Link to={"/account"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/account"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <MdAccountCircle /> <h3>Account</h3>
                 </div>
-              </Link>
-              <Link to={"/settings"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/settings"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <IoSettingsSharp /> <h3>Settings</h3>
                 </div>
-              </Link>
-              <Link to={"/login"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/login"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <FaLock /> <h3>Login</h3>
                 </div>
-              </Link>
-              <Link to={"/register"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/register"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <IoIosPersonAdd /> <h3>Register</h3>
                 </div>
-              </Link>
-              <Link to={"/error"}>
-                <div className="flex items-center gap-2 my-4 dark:hover:bg-slate-300 dark:hover:text-black">
+              </NavLink>
+              <NavLink
+                to={"/error"}
+                style={({ isActive }) => {
+                  return {
+                    fontWeight: isActive ? "bold" : "",
+                    backgroundColor: isActive
+                      ? "rgba(255, 255, 255, 0.08)"
+                      : "",
+                    borderRadius: isActive ? "10px" : "",
+                    paddingLeft: isActive ? "8px" : "",
+                  };
+                }}
+              >
+                <div className="flex items-center gap-2 my-4 ">
                   <VscError /> <h3>Error</h3>
                 </div>
-              </Link>
+              </NavLink>
             </ul>
           </div>
         </div>

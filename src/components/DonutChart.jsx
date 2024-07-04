@@ -29,31 +29,33 @@ class Donut extends Component {
 
   render() {
     return (
-      <div className="donut dark:bg-[#0F172A] rounded-lg inter mx-2">
-        <h3 className="text-lg p-2">Traffic by Device</h3>
-        <div className="divider"></div>
-        <div className="w-[360px] h-[400px] md:w-[700px] md:h-[400px] lg:w-full xl:w-[30rem] xl:h-[20rem] mx-auto ">
-          <ResponsiveContainer width="100%" height="100%">
-            <Chart
-              options={this.state.options}
-              series={this.state.series}
-              type="donut"
-            />
-          </ResponsiveContainer>
-        </div>
-        <div className="divider"></div>
-        <div className="flex gap-10 justify-center mb-4 pb-2">
-          <div>
-            <TbDeviceDesktop className="w-10 h-10" />
-            <p className="text-[#0068B9] mt-3 text-center">63%</p>
+      <div>
+        <div className="donut dark:bg-[#0F172A] rounded-lg inter mx-2">
+          <h3 className="text-lg p-2">Traffic by Device</h3>
+          <div className="divider"></div>
+          <div className="w-[360px] h-[250px] md:w-[700px] md:h-[400px] lg:w-full xl:w-[30rem] xl:h-[20rem] mx-auto ">
+            <ResponsiveContainer width="100%" height="100%">
+              <Chart
+                options={this.state.options}
+                series={this.state.series}
+                type="donut"
+              />
+            </ResponsiveContainer>
           </div>
-          <div>
-            <IoIosTabletPortrait className="w-10 h-10" />
-            <p className="text-[#00A76D] mt-3 text-center">15%</p>
-          </div>
-          <div>
-            <CiMobile2 className="w-10 h-10" />
-            <p className="text-[#FEB019] mt-3 text-center">22%</p>
+          <div className="divider"></div>
+          <div className="flex gap-10 justify-center mb-4 pb-2">
+            <div>
+              <TbDeviceDesktop className="w-10 h-10" />
+              <p className="text-[#0068B9] mt-3 text-center">50%</p>
+            </div>
+            <div>
+              <IoIosTabletPortrait className="w-10 h-10" />
+              <p className="text-[#00A76D] mt-3 text-center">30%</p>
+            </div>
+            <div>
+              <CiMobile2 className="w-10 h-10" />
+              <p className="text-[#FEB019] mt-3 text-center">20%</p>
+            </div>
           </div>
         </div>
       </div>

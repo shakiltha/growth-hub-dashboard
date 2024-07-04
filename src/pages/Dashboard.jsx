@@ -5,6 +5,8 @@ import img4 from "../assets/Avatar-3.png";
 import CardWithProgressBar from "../components/CardWithProgressBar";
 import BarChartDraw from "../components/BarChartDraw";
 import DonutChart from "../components/DonutChart";
+import LatestProducts from "../components/LatestProducts";
+import LatestOrders from "../components/LatestOrders";
 
 const Dashboard = () => {
   return (
@@ -33,6 +35,10 @@ const Dashboard = () => {
       <div className="xl:flex xl:justify-center">
         <BarChartDraw />
         <DonutChart />
+      </div>
+      <div>
+        <LatestProducts />
+        <LatestOrders />
       </div>
     </div>
   );
