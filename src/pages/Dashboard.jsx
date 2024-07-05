@@ -7,10 +7,12 @@ import BarChartDraw from "../components/BarChartDraw";
 import DonutChart from "../components/DonutChart";
 import LatestProducts from "../components/LatestProducts";
 import LatestOrders from "../components/LatestOrders";
+import SideBar from "../sharedComponent/SideBar/SideBar";
 
 const Dashboard = () => {
   return (
     <div className="lg:ml-80 lg:w-[40rem] xl:w-auto">
+      <SideBar />
       <div className="md:flex flex-wrap">
         <Card
           budget="budget"

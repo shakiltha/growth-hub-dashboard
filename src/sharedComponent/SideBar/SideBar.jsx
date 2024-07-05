@@ -35,7 +35,7 @@ const SideBar = () => {
                 Growth-Hub
               </h2>
               <NavLink
-                to={"/"}
+                to={"/dashboard"}
                 style={({ isActive }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",
