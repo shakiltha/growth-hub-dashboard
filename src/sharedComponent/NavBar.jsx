@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="navbar bg-base-100 shadow-xl lg:sticky lg:top-0 z-30">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl ml-10 lg:ml-[20rem]">
+        <a className="btn btn-ghost text-xl ml-10 lg:ml-[3rem] xl:ml-[19rem]">
           <IoSearchOutline />
         </a>
       </div>

@@ -11,14 +11,14 @@ import { NavLink } from "react-router-dom";
 const SideBar = () => {
   return (
     <div>
-      <div className="fixed top-2 z-50 lg:top-0 left-1">
-        <div className="drawer lg:drawer-open z-40">
+      <div className="fixed top-2 z-40 left-2 xl:top-0 xl:left-0 ">
+        <div className="drawer xl:drawer-open z-50">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col items-center justify-center">
             {/* Page content here */}
             <label
               htmlFor="my-drawer-2"
-              className="btn btn-primary drawer-button lg:hidden"
+              className="btn btn-primary drawer-button xl:hidden"
             >
               <GiHamburgerMenu />
             </label>
@@ -48,7 +48,7 @@ const SideBar = () => {
                 }}
               >
                 <div className="flex items-center gap-2 my-4">
-                  <BiBarChartAlt /> <h3>Dashboard</h3>
+                  <BiBarChartAlt /> <h3>Overview</h3>
                 </div>
               </NavLink>
               <NavLink
@@ -173,13 +173,6 @@ const SideBar = () => {
             </ul>
           </div>
         </div>
-        <div></div>
-        {/* 
-        <div className=" border-t-2 pt-4 pl-2">
-          
-
-        </div>
-      </div> */}
       </div>
     </div>
   );

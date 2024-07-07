@@ -2,7 +2,7 @@ import { FaAngleLeft, FaAngleRight, FaArrowDownLong } from "react-icons/fa6";
 
 const LatestOrders = () => {
   return (
-    <div className="dark:bg-[#0F172A] m-2 p-2 rounded-lg">
+    <div className="dark:bg-[#0F172A] m-2 p-2 rounded-lg lg:w-2/4 xl:w-3/4">
       <h3 className="inter text-xl lg:text-2xl font-bold pb-2">
         Latest Orders
       </h3>

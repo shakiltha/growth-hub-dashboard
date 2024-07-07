@@ -8,7 +8,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 const LatestProducts = () => {
   return (
-    <div className="mt-6 p-2 m-2 rounded-lg dark:bg-[#0F172A]">
+    <div className="mt-6 p-2 m-2 rounded-lg dark:bg-[#0F172A] lg:w-2/4 xl:w-2/4">
       <div>
         <h3 className="inter text-xl lg:text-2xl font-bold pb-2">
           Latest Products

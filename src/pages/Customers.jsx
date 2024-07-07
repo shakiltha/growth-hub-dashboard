@@ -9,7 +9,7 @@ const Customers = () => {
     <div>
       <SideBar />
       <NavBar />
-      <div className="lg:flex lg:justify-between lg:items-center my-4 ml-2 mr-2 lg:ml-[21rem]">
+      <div className="lg:flex lg:justify-between lg:items-center my-4 ml-2 mr-2 lg:ml-[2rem] xl:ml-[21rem]">
         <h3 className="inter font-bold">Customers</h3>
         <section className="flex justify-center">
           <button className="btn flex items-center gap-1 mr-2">
@@ -22,7 +22,7 @@ const Customers = () => {
         </section>
       </div>
 
-      <div className="dark:bg-[#121212] p-4 relative h-20 lg:ml-[21rem]">
+      <div className="dark:bg-[#121212] p-4 relative h-20 lg:ml-[2rem] xl:ml-[21rem]">
         <label
           className="absolute top-1 z-20 bg-[#121212] ml-2 px-2"
           htmlFor="search customer"
@@ -37,7 +37,7 @@ const Customers = () => {
           id=""
         />
       </div>
-      <div className="my-4 mx-2 lg:ml-[21rem]">
+      <div className="my-4 mx-2 lg:ml-[2rem] xl:ml-[21rem]">
         <h3 className="inter font-semibold text-lg lg:text-2xl">
           Latest Orders
         </h3>

@@ -60,7 +60,7 @@ const BarChartDraw = () => {
         </select>
       </div>
       <div className="divider"></div>
-      <div className="w-[360px] h-[400px] md:w-[700px] md:h-[600px] lg:w-full xl:w-[60rem] xl:h-[20rem]  mx-auto ">
+      <div className="w-[360px] h-[400px] md:w-[700px] md:h-[600px] lg:w-[50rem] lg:h-[30rem] xl:w-[60rem] xl:h-[20rem]  mx-auto ">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={data}
