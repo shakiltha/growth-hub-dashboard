@@ -23,7 +23,7 @@ const Account = () => {
       <SideBar />
       <NavBar />
       <div className="xl:ml-96 m-2 lg:flex xl:flex-col lg:gap-2">
-        <section className="dark:bg-[#121212] my-4 p-4 w-3/4 lg:w-2/4 mx-auto">
+        <section className="dark:bg-[#121212] shadow-xl my-4 p-4 w-3/4 lg:w-2/4 mx-auto">
           <img src={profile} alt="" />
           <h3>Jonathan</h3>
           <p>Los Angeles USA</p>
@@ -44,11 +44,11 @@ const Account = () => {
             <li key={index}>{file.name}</li>
           ))}
         </section>
-        <section className="dark:bg-[#121212] p-2 md:w-3/4 lg:w-2/4 mx-auto mt-4">
+        <section className="dark:bg-[#121212] shadow-xl p-2 md:w-3/4 lg:w-2/4 mx-auto mt-4">
           <section className="flex flex-col my-2 relative">
             <label
               htmlFor="First Name"
-              className="absolute -top-3 px-2 bg-[#121212]"
+              className="absolute -top-3 px-2 bg-white dark:bg-[#121212]"
             >
               First Name*
             </label>
@@ -57,7 +57,7 @@ const Account = () => {
           <section className="flex flex-col my-3 relative">
             <label
               htmlFor="Last Name"
-              className="absolute -top-3 px-2 bg-[#121212]"
+              className="absolute -top-3 px-2 bg-white dark:bg-[#121212]"
             >
               Last Name*
             </label>
@@ -66,7 +66,7 @@ const Account = () => {
           <section className="flex flex-col my-2 relative">
             <label
               htmlFor="Email"
-              className="absolute -top-3 px-2 bg-[#121212]"
+              className="absolute -top-3 px-2 bg-white dark:bg-[#121212]"
             >
               Email
             </label>
@@ -75,7 +75,7 @@ const Account = () => {
           <section className="flex flex-col my-3 relative">
             <label
               htmlFor="Country"
-              className="absolute -top-3 px-2 bg-[#121212]"
+              className="absolute -top-3 px-2 bg-white dark:bg-[#121212]"
             >
               Country*
             </label>
@@ -102,7 +102,9 @@ const Account = () => {
             </select>
           </section>
           <section className="text-left">
-            <button className="btn bg-[#5048E5] my-2">Save Details</button>
+            <button className="btn bg-[#5048E5] text-white my-2">
+              Save Details
+            </button>
           </section>
         </section>
       </div>

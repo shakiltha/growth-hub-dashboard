@@ -56,10 +56,12 @@ const Settings = () => {
         </div>
         <div className="divider"></div>
         <div className="text-right m-2">
-          <button className="bg-[#5048E5] py-2 px-5 rounded-3xl">Save</button>
+          <button className="bg-[#5048E5] text-white py-2 px-5 rounded-3xl">
+            Save
+          </button>
         </div>
       </div>
-      <div className="bg-[#121212] mx-2 my-4 p-2 shadow-2xl rounded-xl xl:ml-96">
+      <div className="border dark:bg-[#121212] mx-2 my-4 p-2 shadow-2xl rounded-xl xl:ml-96">
         <h3 className="inter text-xl lg:text-2xl font-semibold">Password</h3>
         <p className="inter opacity-95">Update password</p>
         <div className="divider"></div>
@@ -78,7 +80,9 @@ const Settings = () => {
           id=""
         />
         <div className="text-right m-2">
-          <button className="bg-[#5048E5] py-2 px-5 rounded-3xl">Save</button>
+          <button className="bg-[#5048E5] text-white py-2 px-5 rounded-3xl">
+            Save
+          </button>
         </div>
       </div>
     </div>

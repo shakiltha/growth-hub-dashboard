@@ -12,7 +12,7 @@ const ProductCard = () => {
   return (
     <div>
       <div className="md:flex md:flex-wrap md:items-center">
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img
@@ -44,7 +44,7 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img
@@ -76,7 +76,7 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img className="w-28 h-28 mx-auto mb-2" src={headset} alt="" />
@@ -105,7 +105,7 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img
@@ -137,7 +137,7 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img className="w-28 h-28 mx-auto mb-2" src={camera} alt="" />
@@ -166,7 +166,7 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto dark:bg-slate-900 mx-auto mt-4 p-2">
+        <div className="w-[350px] lg:w-[300px] lg:h-[560px] xl:w-[500px] xl:h-[460px] h-auto border shadow-xl dark:bg-slate-900 mx-auto mt-4 p-2">
           <div>
             <div>
               <img className="w-28 h-28 mx-auto mb-2" src={speaker} alt="" />

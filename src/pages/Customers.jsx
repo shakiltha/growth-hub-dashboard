@@ -24,7 +24,7 @@ const Customers = () => {
 
       <div className="dark:bg-[#121212] p-4 relative h-20 lg:ml-[2rem] xl:ml-[21rem]">
         <label
-          className="absolute top-1 z-20 bg-[#121212] ml-2 px-2"
+          className="absolute top-1 z-20 bg-white dark:bg-[#121212] ml-2 px-2"
           htmlFor="search customer"
         >
           Search customer
